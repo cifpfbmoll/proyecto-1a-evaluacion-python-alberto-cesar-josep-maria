@@ -2,6 +2,9 @@ import random
 import os
 os.system('cls')
 
+wins = 0
+loses = 0
+
 # definiciones
 
 def mostrarBlackjack(menu):
@@ -57,6 +60,7 @@ def mostrarSalir(menu):
 def gestionarMenu():
         print("---> Bienvenido al menú <---")
         print("")
+        print("           WINS = ", wins, "LOSES = ", loses)
         print("--> Para jugar a BlackJack, pulsa [J]")
         print("--> Para ver las instrucciones del Blackjack, pulsa [I]")
         print("--> Para ver los creadores de este juego, pulsa [C]")
