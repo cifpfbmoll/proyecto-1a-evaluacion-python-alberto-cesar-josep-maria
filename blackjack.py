@@ -105,7 +105,7 @@ def juego():
     eleccion = 0
     barajaJugador = barajar(mazo)
     barajaDealer = barajar(mazo)
-    print("El dealer muestra una de sus cartas, y es: ")
+    print("El dealer muestra una de sus cartas, y es: ", str(barajaDealer[0]))
     print("Tienes las siguientes cartas: ", str(barajaJugador), ". Con un total de :", str(total(barajaJugador)))
     blackjack(barajaJugador, barajaDealer)
     quit = False
