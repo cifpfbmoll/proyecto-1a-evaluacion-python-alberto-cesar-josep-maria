@@ -41,7 +41,6 @@ def pedir(mano):
     if card == 13:card = "K"
     if card == 14:card = "A"
     mano.append(card)
-    mano.append(carta)
     return mano
 ##########################################################################
 def blackjack(barajaJugador, barajaDealer):
