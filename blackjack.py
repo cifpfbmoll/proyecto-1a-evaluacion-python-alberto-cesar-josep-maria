@@ -52,7 +52,7 @@ def blackjack(barajaJugador, barajaDealer):
         wins += 1
         playAgain()
     elif total(barajaDealer) == 21:
-        print_results(barajaJugador, barajaDealer)
+        print(barajaJugador, barajaDealer)
         print ("Lástima! El dealer tiene un blackjack.")
         loses += 1
         volverMenu()
@@ -68,34 +68,31 @@ def volverMenu():
         print("Adiós!")
         exit()
 ##########################################################################
-def mostrarBaraja():
-   print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
-##########################################################################
 def puntuacion(barajaJugador, barajaDealer):
     global wins
     global loses
     if total(barajaJugador) == 21:
-        mostrarBaraja()
+        print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
         print("Felicidades! Tienes un Blackjack!")
         wins += 1
     elif total(barajaJugador) > 21:
-        mostrarBaraja()
+        print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
         print("Lástima! Tienes más de 21.")
         loses += 1
     elif total(barajaDealer) == 21:
-        mostrarBaraja()
+        print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
         print("Lástima! El dealer tiene un Blackjack.")
         loses +=1
     elif total(barajaDealer) > 21:
-        mostrarBaraja()
+        print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
         print("Vaya! El dealer se ha pasado de 21, ganas!")
         wins += 1
     elif total(barajaJugador) > total(barajaDealer):
-        mostrarBaraja()
+        print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
         print("Felicidades! Tienes más que el dealer!")
         wins += 1
     elif total(barajaJugador) < total(barajaDealer):
-        mostrarBaraja()
+        print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
         print("Lástima! Te ha ganado el dealer.")
         loses += 1
 ##########################################################################
@@ -123,7 +120,7 @@ def juego():
             while total(barajaDealer) < 17:
                 pedir(barajaDealer)
                 print(barajaDealer)
-                if total(BarajaDealer)>21:
+                if total(barajaDealer)>21:
                     print('El dealer se ha pasado de 21! Has ganado!')
                     wins += 1
                     volverMenu()
