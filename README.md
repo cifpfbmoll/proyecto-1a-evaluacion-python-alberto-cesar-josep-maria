@@ -38,5 +38,5 @@ En el Scrum de hoy hemos acabado todas las funciones planificadas anteriormente 
 una función nueva que no teníamos prevista, llamada mostrarMarcador(), la cual se accede desde el 
 menú al haber acabado una partida, después de ver el resultado, hemos decidido simplificarlo y así poder realizar partidas consecutivas sin tener qe viajar tanto entre ventanas. La solución ha sido poner el marcador en el Menú principal, así el jugador siempre ve cuantas WINS y cuantas LOSES lleva antes de empezar una nueva partida.
 
-La entrea del proyecto se ha adelantado así que la opción de incluir más jugadores la hemos descartado para poder dedicar el poco tiempo que nos queda a ensamblar todas las funciones, poder hacer que funcionen correctamente juntas y le hemos dado un pequeño toque estético.
+La entrega del proyecto se ha adelantado así que la opción de incluir más jugadores la hemos descartado para poder dedicar el poco tiempo que nos queda a ensamblar todas las funciones, poder hacer que funcionen correctamente juntas y le hemos dado un pequeño toque estético.
 
