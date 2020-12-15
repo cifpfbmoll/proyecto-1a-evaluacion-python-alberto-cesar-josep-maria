@@ -123,7 +123,7 @@ def juego():
             while total(barajaDealer) < 17:
                 pedir(barajaDealer)
                 print(barajaDealer)
-                if total(dealer_hand)>21:
+                if total(BarajaDealer)>21:
                     print('El dealer se ha pasado de 21! Has ganado!')
                     wins += 1
                     volverMenu()
