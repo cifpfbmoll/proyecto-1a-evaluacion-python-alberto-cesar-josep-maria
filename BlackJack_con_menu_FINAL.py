@@ -142,6 +142,11 @@ def juego():
                 derrota()
                 loses += 1
                 volverMenu()
+            elif total(barajaJugador) == 21:
+                print('\033[0;34;40mFelicidades! Tienes un blackjack!\033[0;37;40m')
+                victoria()
+                wins += 1
+                volverMenu()
         elif eleccion == "x":
             while total(barajaDealer) < 17:
                 pedir(barajaDealer)
