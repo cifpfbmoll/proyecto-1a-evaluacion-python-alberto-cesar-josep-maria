@@ -57,7 +57,7 @@ def blackjack(barajaJugador, barajaDealer):
         loses += 1
         volverMenu()
 ##########################################################################
-def VolverMenu():
+def volverMenu():
     volver = input("Quieres volver al menú? (S/N) : ").lower()
     if volver == "s":
         barajaJugador = []
@@ -71,7 +71,7 @@ def VolverMenu():
 def mostrarBaraja():
    print("Tu baraja es ", barajaJugador, "y la del dealer es", barajaDealer)
 ##########################################################################
-def puntuacion():
+def puntuacion(barajaJugador, barajaDealer):
     global wins
     global loses
     if total(barajaJugador) == 21:
@@ -105,7 +105,7 @@ def juego():
     eleccion = 0
     barajaJugador = barajar(mazo)
     barajaDealer = barajar(mazo)
-    print("El dealer muestra una de sus cartas, y es: ", str(barajaDealer(0)))
+    print("El dealer muestra una de sus cartas, y es: ")
     print("Tienes las siguientes cartas: ", str(barajaJugador), ". Con un total de :", str(total(barajaJugador)))
     blackjack(barajaJugador, barajaDealer)
     quit = False
