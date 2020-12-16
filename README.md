@@ -9,8 +9,7 @@ Primer dia:
 Hoy hemos establecido como objetivo del proyecto de Programación crear el Juego de BLACKJACK.
 Empezamos repasando la metodología SCRUM, la cual seguiremos en este proyecto, ya que nunca
 habíamos trabajado con ella.
-Hemos hecho nuestro primer scrum diario donde hemos hecho nuestro primer sprint planning: en 
-este sprint comenzamos a desarrollar las ideas principales del proyecto: desde aprender las 
+Hemos hecho nuestro primer scrum diario donde en nuestro primer sprint planning hemos comenzado a desarrollar las ideas principales del proyecto: desde aprender las 
 normas del juego, ya que no todos las conocemos, hasta determinar qué funciones necesitaremos 
 para este juego. 
 Hemos pensado que el juego será de un jugador + dealer, y además necesitaremos crear unas listas 
@@ -39,4 +38,11 @@ una función nueva que no teníamos prevista, llamada mostrarMarcador(), la cual
 menú al haber acabado una partida, después de ver el resultado, hemos decidido simplificarlo y así poder realizar partidas consecutivas sin tener qe viajar tanto entre ventanas. La solución ha sido poner el marcador en el Menú principal, así el jugador siempre ve cuantas WINS y cuantas LOSES lleva antes de empezar una nueva partida.
 
 La entrega del proyecto se ha adelantado así que la opción de incluir más jugadores la hemos descartado para poder dedicar el poco tiempo que nos queda a ensamblar todas las funciones, poder hacer que funcionen correctamente juntas y le hemos dado un pequeño toque estético.
+
+
+Posibles cosas que añadiriamos al proyecto:
+- Añadir función multijugador
+- Crear una función visualización para poder ver las cartas en arte ASCII cada vez que printeamos la mano de jugador y dealer.
+- Añadir otro juego de cartas en el menú principal sacando provecho de las funciones ya creadas.
+- Sistema de apuestas, bastante simple.
 
